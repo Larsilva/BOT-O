@@ -1,0 +1,21 @@
+/* Define o corpo da página */
+body {
+    margin: 0;
+    padding: 0;
+    /* Aplica um gradiente de fundo */
+    background-image: linear-gradient(to right, #1F37C0, #4C28FA, #288AFA, #08C7FC);
+    background-attachment: fixed;
+    /* Utiliza o flexbox para centralizar vertical e horizontalmente o conteúdo */
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Garante que o corpo da página ocupe toda a altura da viewport */
+}
+
+/* Estiliza a imagem */
+img {
+    width: 300px; /* Define a largura da imagem */
+    height: 300px; /* Define a altura da imagem */
+    padding: 20px; /* Adiciona um preenchimento de 20px ao redor da imagem */
+    display: block; /* Remove qualquer espaço extra ao redor da imagem */
+}
